@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/homePage/static/js/main.92a9a1b8.chunk.js",
-    "main.js.map": "/homePage/static/js/main.92a9a1b8.chunk.js.map",
+    "main.js": "/homePage/static/js/main.8f59069a.chunk.js",
+    "main.js.map": "/homePage/static/js/main.8f59069a.chunk.js.map",
     "runtime-main.js": "/homePage/static/js/runtime-main.5c841c34.js",
     "runtime-main.js.map": "/homePage/static/js/runtime-main.5c841c34.js.map",
     "static/js/2.14eb374d.chunk.js": "/homePage/static/js/2.14eb374d.chunk.js",
     "static/js/2.14eb374d.chunk.js.map": "/homePage/static/js/2.14eb374d.chunk.js.map",
     "index.html": "/homePage/index.html",
-    "precache-manifest.284868214d19327b3311e857a6b1819c.js": "/homePage/precache-manifest.284868214d19327b3311e857a6b1819c.js",
+    "precache-manifest.fb3eb0aecf6e0222eff550e33486d910.js": "/homePage/precache-manifest.fb3eb0aecf6e0222eff550e33486d910.js",
     "service-worker.js": "/homePage/service-worker.js",
     "static/media/IDG-simplified.gif": "/homePage/static/media/IDG-simplified.898cc050.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.5c841c34.js",
     "static/js/2.14eb374d.chunk.js",
-    "static/js/main.92a9a1b8.chunk.js"
+    "static/js/main.8f59069a.chunk.js"
   ]
 }
