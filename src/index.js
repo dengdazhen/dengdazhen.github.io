@@ -1,6 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 import ReactDom from 'react-dom'
 import { Typography } from '@material-ui/core'
+import { TranslateTwoTone } from '@material-ui/icons'
+import {IconButton} from '@material-ui/core'
+import {AppBar} from '@material-ui/core'
 import Timeline from './components/Timeline'
 import PersonalIntro from './components/personalIntro'
 import Publications from './components/Publication'
@@ -9,6 +12,7 @@ import data from "./components/content";
 import useMediaQuery from '@material-ui/core/useMediaQuery';
 import './index.css';
 import News from './components/News'
+import {Button} from '@material-ui/core'
 
 
 
@@ -23,21 +27,44 @@ const usePCStyles = makeStyles(theme => ({
     },
     header: {
         height: '80px',
-        marginTop: '20px',
+        // marginTop: '20px',
         display: 'flex',
-        justifyContent: 'space-between',
         alignItems: 'center',
         backgroundColor: '#24292e'
     },
+    elements:{
+        height: '100%',
+        width: '900px',
+        justifyContent: 'space-between',
+        display: 'flex'
+        // marginLeft: `calc(50% - 450px)`,
+    },
     mainBody: {
         width: '100%',
+        marginTop: '80px',
         // height: `calc(100% - 40px)`,
         overflowY: 'auto'
     },
     typography: {
         fontSize: 30,
+        width: '400px',
         margin: '15px',
         color: '#FDFEFE'
+    },
+    buttonGroup:{
+        width: '150px',
+        height: '80px',
+        display: 'flex',
+        alignContent: 'center'
+    },
+    button:{
+        color:'white',
+        // marginRight: 0,
+    },
+    buttonText:{
+        color: 'white',
+        margin: '5px',
+        fontSize: '20px'
     },
     logo: {
         width: '60px',
@@ -58,12 +85,19 @@ const useMBStyles = makeStyles(theme => ({
         width: '100%',
         height: '40px',
         display: 'flex',
-        justifyContent: 'space-between',
         alignItems: 'center',
         backgroundColor: '#24292e'
     },
+    elements:{
+        width: '80vw',
+        height: '100vh',
+        display: 'flex',
+        justifyContent: 'space-between',
+        // marginLeft: `calc(50% - 450px)`,
+    },
     mainBody: {
         width: '100%',
+        marginTop: '40px',
         // height: `calc(100% - 40px)`,
         overflowY: 'scroll'
     },
@@ -72,32 +106,63 @@ const useMBStyles = makeStyles(theme => ({
         margin: '5px',
         color: '#FDFEFE'
     },
+    buttonGroup:{
+        width: '90px',
+        height: '40px',
+        display: 'flex',
+        alignContent: 'center'
+    },
+    button:{
+        color:'white',
+        fontSize: 16
+        // marginRight: 0,
+    },
+    buttonText:{
+        width: '45px',
+        color: 'white',
+        margin: '5px',
+        fontSize: 14
+    },
     logo: {
         width: '20px',
         margin: '5px'
     }
 }));
 
-function App() {
+function App(props) {
     const matches = useMediaQuery('(min-width:900px)');
     const style1 = usePCStyles();
     const style2 = useMBStyles();
     const classes = matches? style1: style2;
+
+    const [langOpt, setCount] = useState(1);
+
+    const lang = ['中文','En']
+    
+    const handleClick = () => {
+        setCount(1-langOpt)
+    };
     return (
         <div className={classes.main}>
-            <div className={classes.header}>
-                <Typography className={classes.typography}>
-                    Dazhen Deng (邓达臻)
-                </Typography>
+            <AppBar className={classes.header}>
+                <div className={classes.elements}>
+                    <Typography className={classes.typography}>
+                        Dazhen Deng (邓达臻)
+                    </Typography>
+                    <Button  onClick={handleClick} className={classes.buttonGroup}>
+                        <TranslateTwoTone fontSize="medium" className={classes.button}/>
+                        <Typography justifyContent='center' className={classes.buttonText}>{lang[langOpt]}</Typography>
+                    </Button>
+                </div>
                 {/* <a href='https://zjuidg.org/'>
                     <img src={logo} className={classes.logo} />
                 </a> */}
-            </div>
+            </AppBar>
             <div className={classes.mainBody}>
-                <PersonalIntro content={data.intro} contact={data.contact}/>
-                <Timeline experience={data.experience} />
-                <News news={data.news} />
-                <Publications publications={data.publications} />
+                <PersonalIntro content={data.intro[langOpt]} contact={data.contact} lang={langOpt}/>
+                <Timeline experience={data.experience[langOpt]} lang={langOpt}/>
+                <News news={data.news} lang={langOpt}/>
+                <Publications publications={data.publications} lang={langOpt}/>
             </div>
         </div>
     )

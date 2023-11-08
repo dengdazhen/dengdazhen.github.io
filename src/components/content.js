@@ -1,5 +1,6 @@
 const data = {
-    intro: "I am a tenure-track assistant professor (ZJU 100-Young professor) in the School of Software and Technology at Zhejiang University. I received my Ph.D. at the State Key Lab of CAD&CG, Zhejiang University, under the supervision of Prof. Yingcai Wu. My research interests lie in AI-empowered insight discovery, AI for visualization generation, and visual analytics for AI security.",
+    intro: ["邓达臻博士是浙江大学软件学院平台“百人计划”研究员，2018年于浙江大学获得数学与应用数学学士学位；2023年于浙江大学获得计算机科学与技术博士学位，师从巫英才教授。博士期间获国家奖学金和浙江省优秀毕业研究生等奖项。主要从事大数据可视分析、AI驱动的可视化生成和大模型安全可视分析的相关研究。在IEEE VIS、IEEE TVCG、ACM KDD、ACM CHI、ACM UIST等CCF-A类可视化、人工智能和人机交互会议/期刊上发表相关论文10余篇，曾获IEEE VIS 2022最佳论文提名奖；相关成果落地应用至中国乒乓球队智能大数据平台中，助力国家队备战国际重要赛事。","I am a tenure-track assistant professor (ZJU 100-Young professor) in the School of Software and Technology at Zhejiang University. I received my Ph.D. at the State Key Lab of CAD&CG, Zhejiang University, under the supervision of Prof. Yingcai Wu. My research interests lie in AI-empowered insight discovery, AI for visualization generation, and visual analytics for AI security."],
+    
     contact: [
         {
             src: './imgs/email.png',
@@ -78,7 +79,44 @@ const data = {
             content: "Started my Ph.D. program at Zhejiang University."
         }
     ],
-    experience: [
+    experience: [[
+        {
+            duration: '2023.8至今',
+            city: '宁波',
+            country: '中国',
+            title: '助理教授',
+            description: '百人计划研究员',
+            affiliation: '浙江大学软件学院',
+            src: './imgs/zju.png'
+        },
+        {
+            duration: '2020.12 - 2021.4',
+            city: '北京',
+            country: '中国',
+            title: '科研实习',
+            affiliation: '微软亚洲研究院',
+            description: '导师：崔为炜',
+            src: './imgs/microsoft.png'
+        },
+        {
+            duration: '2018.9 - 2023.6',
+            city: '杭州',
+            country: '中国',
+            title: '直博',
+            affiliation: '浙江大学CAD&CG全国重点实验室',
+            description: '导师：巫英才',
+            src: './imgs/zju.png'
+        },
+        {
+            duration: '2014.9 - 2018.6',
+            city: '杭州',
+            country: '中国',
+            title: '本科',
+            affiliation: '浙江大学数学科学学院',
+            description: '数学与应用数学专业',
+            src: './imgs/zju.png'
+        }
+    ],[
         {
             duration: 'August 2023 - Present',
             city: 'Ningbo',
@@ -115,8 +153,16 @@ const data = {
             description: 'BSc of Applied Mathematics',
             src: './imgs/zju.png'
         }
-    ],
+    ]],
     publications: [
+        {
+            title: 'Grand Challenges in Visual Analytics Applications',
+            authors: 'Aoyu Wu, Dazhen Deng, Min Chen, Shixia Liu, Daniel Keim, Ross Maciejewski, Silvia Miksch, Hendrik Strobelt, Fernanda Viegas, and Martin Wattenberg',
+            conference: 'IEEE Computer Graphics and Applications',
+            paper_url: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10251911&tag=1',
+            video_url: '',
+            src: './imgs/challenges.png'
+        },
         {
             title: 'Visualizing Large-Scale Spatial Time Series with GeoChron',
             authors: 'Zikun Deng, Shifu Chen, Tobias Schreck, Dazhen Deng, Tan Tang, Mingliang Xu, Di Weng, Yingcai Wu',

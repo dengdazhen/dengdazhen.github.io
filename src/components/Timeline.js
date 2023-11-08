@@ -186,7 +186,7 @@ function Timeline(props) {
     return (
         <div>
             <Typography className={classes.title}>
-                Experience
+                {props.lang==1?'Experience':'经历'}
             </Typography>
             {props.experience.map((value, index) => {
                 return (<TimelineEntry

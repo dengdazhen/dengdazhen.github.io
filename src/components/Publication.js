@@ -173,7 +173,7 @@ function Publications(props) {
     return (
         <div>
             <Typography className={classes.title}>
-                Publications
+            {props.lang==1?'Publications':'发表论文'}
             </Typography>
             {props.publications.map((value, index) => {
                 return (<PublicationElement

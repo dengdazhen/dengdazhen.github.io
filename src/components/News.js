@@ -105,7 +105,7 @@ function News(props) {
     return (
         <div>
             <Typography className={classes.title}>
-                News
+                {props.lang==1?'News':'新闻'}
             </Typography>
             <ul className={classes.intro}>
             {props.news.map((value, index) => {
