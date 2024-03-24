@@ -35,6 +35,14 @@ const data = {
     ],
     news: [
         {
+            date: "01/2024",
+            content: 'A paper accepted to TVCG.'
+        },
+        {
+            date: "12/2023",
+            content: 'A paper accepted to AAAI and a paper accepted to CHI.'
+        },
+        {
             date: "07/2023",
             content: 'A paper accepted to IEEE VIS 2023 and a paper accepted to ACM UIST.'
         },
@@ -155,6 +163,30 @@ const data = {
         }
     ]],
     publications: [
+        {
+            title: 'ChartGPT: Leveraging LLMs to Generate Charts from Abstract Natural Language',
+            authors: 'Yuan Tian, Weiwei Cui, Dazhen Deng*, Xinjing Yi, Yurun Yang, Haidong Zhang, and Yingcai Wu* (* denotes corresponding authors)',
+            conference: 'IEEE Transactions on Visualization and Computer Graphics (CCF-A, JCR-Q1)',
+            paper_url: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10443572',
+            video_url: '',
+            src: './imgs/chartgpt.png'
+        },
+        {
+            title: 'ViSTec: Video Modeling for Sports Technique Recognition and Tactical Analysis',
+            authors: 'Yuchen He, Zeqing Yuan, Yihong Wu, Liqi Cheng, Dazhen Deng*, and Yingcai Wu* (* denotes corresponding authors)',
+            conference: 'AAAI 2024 (CCF-A)',
+            paper_url: 'https://arxiv.org/pdf/2402.15952',
+            video_url: '',
+            src: './imgs/vistec.png'
+        },
+        {
+            title: 'VAID: Indexing View Designs in Visual Analytics System',
+            authors: 'Lu Ying, Aoyu Wu, Haotian Li, Zikun Deng, Ji Lan, Jiang Wu, Yong Wang, Huamin Qu, Dazhen Deng*, and Yingcai Wu (* denotes corresponding authors)',
+            conference: 'CHI Conference on Human Factors in Computing Systems (ACM SIGCHI 2024, CCF-A)',
+            paper_url: 'https://arxiv.org/pdf/2211.02567',
+            video_url: '',
+            src: './imgs/vaid.png'
+        },
         {
             title: 'Grand Challenges in Visual Analytics Applications',
             authors: 'Aoyu Wu, Dazhen Deng, Min Chen, Shixia Liu, Daniel Keim, Ross Maciejewski, Silvia Miksch, Hendrik Strobelt, Fernanda Viegas, and Martin Wattenberg',
