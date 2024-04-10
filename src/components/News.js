@@ -1,5 +1,5 @@
-import React from 'react';
-import {Typography,makeStyles, useMediaQuery} from '@material-ui/core'
+import React,{useState} from 'react';
+import {Typography,makeStyles, useMediaQuery, Link} from '@material-ui/core'
 
 
 const usePCStyles = makeStyles(theme => ({
@@ -38,7 +38,7 @@ const usePCStyles = makeStyles(theme => ({
         objectFit: 'scale-down',
     },
     contactText: {
-        fontSize: 14,
+        fontSize: 16,
         display: 'inline'
     },
     button: {
@@ -97,11 +97,22 @@ const useMBStyles = makeStyles(theme => ({
     },
 }));
 
+
 function News(props) {
     const matches = useMediaQuery('(min-width:900px)');
     const style1 = usePCStyles();
     const style2 = useMBStyles();
     const classes = matches? style1: style2;
+    
+    const [maxNum, setNum] = React.useState(5);
+
+    const handelClick = () => {
+        setNum(maxNum + 5)
+    }
+
+    const handelCollapse = () => {
+        setNum(5)
+    }
     return (
         <div>
             <Typography className={classes.title}>
@@ -114,11 +125,16 @@ function News(props) {
                         key={index}
                     ><a><Typography className={classes.contactText}>{`${value.date}: ${value.content}`}</Typography><img className={classes.inlineIcon} src={'./imgs/NEW.png'}/></a></li>)
                 }
+                else if (index < maxNum)
                 return (<li
                     key={index}
                 ><Typography className={classes.contactText}>{`${value.date}: ${value.content}`}</Typography></li>)
             })}
+            {props.news.length > maxNum?<li key={'show-more'}
+                ><Link className={classes.contactText} onClick={handelClick}>show more</Link></li>:<li key={'show-more'}
+                ><Link className={classes.contactText} onClick={handelCollapse}>collapse</Link></li>}
             </ul>
+
         </div>
     )
 }

@@ -36,7 +36,7 @@ const usePCStyles = makeStyles(theme => ({
         objectFit: 'scale-down',
     },
     contactText: {
-        fontSize: 14,
+        fontSize: 16,
         display: 'inline'
     },
 }));

@@ -13,6 +13,8 @@ import useMediaQuery from '@material-ui/core/useMediaQuery';
 import './index.css';
 import News from './components/News'
 import {Button} from '@material-ui/core'
+import Honors from './components/Honors'
+import Services from './components/Services'
 
 
 
@@ -160,9 +162,11 @@ function App(props) {
             </AppBar>
             <div className={classes.mainBody}>
                 <PersonalIntro content={data.intro[langOpt]} contact={data.contact} lang={langOpt}/>
-                <Timeline experience={data.experience[langOpt]} lang={langOpt}/>
+                {/* <Timeline experience={data.experience[langOpt]} lang={langOpt}/> */}
                 <News news={data.news} lang={langOpt}/>
                 <Publications publications={data.publications} lang={langOpt}/>
+                <Honors list={data.honors} lang={langOpt}/>
+                <Services list={data.services} lang={langOpt}/>
             </div>
         </div>
     )
