@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import ReactDom from 'react-dom'
-import { Typography } from '@material-ui/core'
+import { Typography, Divider } from '@material-ui/core'
 import { TranslateTwoTone } from '@material-ui/icons'
 import {IconButton} from '@material-ui/core'
 import {AppBar} from '@material-ui/core'
@@ -15,6 +15,7 @@ import News from './components/News'
 import {Button} from '@material-ui/core'
 import Honors from './components/Honors'
 import Services from './components/Services'
+
 
 
 
@@ -167,6 +168,8 @@ function App(props) {
                 <Publications publications={data.publications} lang={langOpt}/>
                 <Honors list={data.honors} lang={langOpt}/>
                 <Services list={data.services} lang={langOpt}/>
+                <Divider/>
+                <Typography align='center' style={{fontStyle:'italic', fontSize: 14}}>last updated at {data.date}</Typography>
             </div>
         </div>
     )
