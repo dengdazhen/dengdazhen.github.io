@@ -151,10 +151,10 @@ function App(props) {
                     <Typography className={classes.typography}>
                         Dazhen Deng (邓达臻)
                     </Typography>
-                    <Button  onClick={handleClick} className={classes.buttonGroup}>
+                    {/* <Button  onClick={handleClick} className={classes.buttonGroup}>
                         <TranslateTwoTone fontSize="medium" className={classes.button}/>
                         <Typography justifyContent='center' className={classes.buttonText}>{lang[langOpt]}</Typography>
-                    </Button>
+                    </Button> */}
                 </div>
                 {/* <a href='https://zjuidg.org/'>
                     <img src={logo} className={classes.logo} />

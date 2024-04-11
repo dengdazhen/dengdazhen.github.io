@@ -1,5 +1,5 @@
 const data = {
-    intro: ["邓达臻博士是浙江大学软件学院平台“百人计划”研究员，2018年于浙江大学获得数学与应用数学学士学位；2023年于浙江大学获得计算机科学与技术博士学位，师从巫英才教授。博士期间获国家奖学金和浙江省优秀毕业研究生等奖项。主要从事大数据可视分析、AI驱动的可视化生成和大模型安全可视分析的相关研究。在IEEE VIS、IEEE TVCG、ACM KDD、ACM CHI、ACM UIST等CCF-A类可视化、人工智能和人机交互会议/期刊上发表相关论文10余篇，曾获IEEE VIS 2022最佳论文提名奖；相关成果落地应用至中国乒乓球队智能大数据平台中，助力国家队备战国际重要赛事。", "I am a tenure-track assistant professor (ZJU 100-Young professor) in the School of Software and Technology at Zhejiang University. I received my Ph.D. at the State Key Lab of CAD&CG, Zhejiang University, under the supervision of Prof. Yingcai Wu. My research interests lie in AI-empowered insight discovery, AI for visualization generation, and visual analytics for AI security."],
+    intro: ["邓达臻博士是浙江大学软件学院平台“百人计划”研究员，2018年于浙江大学获得数学与应用数学学士学位；2023年于浙江大学获得计算机科学与技术博士学位，师从巫英才教授。博士期间获国家奖学金和浙江省优秀毕业研究生等奖项。主要从事大数据可视分析、AI驱动的可视化生成和大模型安全可视分析的相关研究。在IEEE VIS、IEEE TVCG、ACM KDD、ACM CHI、ACM UIST等CCF-A类可视化、人工智能和人机交互会议/期刊上发表相关论文10余篇，曾获IEEE VIS 2022最佳论文提名奖；相关成果落地应用至中国乒乓球队智能大数据平台中，助力国家队备战国际重要赛事。", "I am a tenure-track assistant professor (ZJU 100-Young professor) in the School of Software and Technology at Zhejiang University (<a href='https://person.zju.edu.cn/dengdazhen'>official homepage</a>). I received my Ph.D. at the State Key Lab of CAD&CG, Zhejiang University, under the supervision of <a href='https://person.zju.edu.cn/ycwu'>Prof. Yingcai Wu (巫英才)</a>. My research interests lie in AI-driven visual analytics and visual analytics for AI explainability and trustworthiness. I have been honored with IEEE VIS 2022 Best Paper Honorable Mention Award and Outstanding Graduates of Zhejiang Province. I have also been granted with Ningbo Yongjiang Innovative Youth Talents (甬江科技创新青年人才). The relevant achievements have been applied to the Intelligent Big Data Platform of the Chinese Table Tennis Team, aiding the national team in preparing for major international competitions, such as Olympic Games and World Table Tennis Championships (<a href='https://news.cctv.com/2021/08/11/ARTIu1LcWheEFyyQtark9H51210811.shtml'>CCTV News</a>, <a href='https://jyt.zj.gov.cn/art/2021/8/13/art_1532836_58917877.html'>Zhejiang Daily</a>)."],
 
     contact: [
         {
@@ -217,7 +217,7 @@ const data = {
 }`,
             paper_url: './publications/vistec.pdf',
             doi: '10.1609/AAAI.V38I8.28692',
-            video_url: '',
+            video_url: 'https://vistec2024.github.io/',
             tags: ['ai+vis', 'sports'],
             src: './imgs/vistec.png'
         },
@@ -672,13 +672,13 @@ const data = {
     ],
     services: [
         {
-            content: "Academic Committee: CSIG Committee of Visualization and Visual Analytics"
+            content: "Academic Committee: Committee Member of CSIG Committee of Visualization and Visual Analytics"
         },
         {
             content: "Conference Reviewer: ACM CHI, IEEE VIS, CSCW, ACM MM, PacificVis, ChinaVis"
         },
         {
-            content: "journal Reviewer: IEEE TVCG, Journal of Visualization"
+            content: "Journal Reviewer: IEEE TVCG, Journal of Visualization"
         }
     ]
 };

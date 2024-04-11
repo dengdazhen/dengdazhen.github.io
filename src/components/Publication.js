@@ -185,11 +185,6 @@ function FormattedAuthors(element) {
                 ${newauthorlist}
     </Typography>`
 
-    console.log(docString)
-
-    const doc = new DOMParser().parseFromString(docString, "text/xml");
-
-
     return <div dangerouslySetInnerHTML={{__html: docString}} />;
 }
 

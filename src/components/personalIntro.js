@@ -83,13 +83,21 @@ function PersonalIntro(props) {
     const style1 = usePCStyles();
     const style2 = useMBStyles();
     const classes = matches? style1: style2;
+
+    const docString = `<p>
+        ${props.content}
+    </p>`
+
+
+
     return (
         <div className={classes.main}>
             <Avatar src = './imgs/avatar2.jpg' className = {classes.avatar}/>
             <div className={classes.introBlock}>
-                <Typography className = {classes.intro}>
-                    {props.content}
-                </Typography>
+            <Typography className={classes.intro}>
+                <p dangerouslySetInnerHTML={{__html: docString}} />
+            </Typography>
+                
                 <div className={classes.contactwrapper}>
                     <Typography 
                     className={classes.contactText}>
