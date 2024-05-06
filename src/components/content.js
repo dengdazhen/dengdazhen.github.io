@@ -169,6 +169,29 @@ const data = {
     ]],
     publications: [
         {
+            title: 'SNIL: Generating Sports News From Insights With Large Language Models',
+            authors: 'Liqi Cheng, Dazhen Deng, Xiao Xie, Rihong Qiu, Mingliang Xu, Yingcai Wu',
+            corresponding: ['Dazhen Deng'],
+            conference: 'IEEE Transactions on Visualization and Computer Graphics (CCF-A, JCR-Q1)',
+            // bib: ``,
+            paper_url: './publications/snil.pdf',
+            bib: `@ARTICLE{cheng2024snil,
+    author={Cheng, Liqi and Deng, Dazhen and Xie, Xiao and Qiu, Rihong and Xu, Mingliang and Wu, Yingcai},
+    journal={IEEE Transactions on Visualization and Computer Graphics}, 
+    title={SNIL: Generating Sports News From Insights With Large Language Models}, 
+    year={2024},
+    volume={},
+    number={},
+    pages={1-14},
+    keywords={Sports;Data visualization;Journalism;Games;Videos;Task analysis;Interviews;Language-Driven authoring tool;sports visualization;storytelling},
+    doi={10.1109/TVCG.2024.3392683}
+}`,
+            doi: '10.1109/TVCG.2024.3392683',
+            video_url: '',
+            tags: ['ai4vis', 'LLM', 'sports'],
+            src: './imgs/snil.png'
+        },
+        {
             title: 'ChartGPT: Leveraging LLMs to Generate Charts from Abstract Natural Language',
             authors: 'Yuan Tian, Weiwei Cui, Dazhen Deng, Xinjing Yi, Yurun Yang, Haidong Zhang, Yingcai Wu',
             corresponding: ['Dazhen Deng', 'Yingcai Wu'],
