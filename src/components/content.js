@@ -37,15 +37,15 @@ const data = {
     news: [
         {
             date: "07/2024",
-            content: 'A paper was accepted to IEEE VIS 2024.'
+            content: 'A paper accepted to IEEE VIS 2024.'
         },
         {
             date: "04/2024",
-            content: 'A paper about "sports news generation" was accepted to TVCG.'
+            content: 'A paper about "sports news generation" accepted to TVCG.'
         },
         {
             date: "01/2024",
-            content: 'A paper about "chart generation" was accepted to TVCG.'
+            content: 'A paper about "chart generation" accepted to TVCG.'
         },
         {
             date: "12/2023",
