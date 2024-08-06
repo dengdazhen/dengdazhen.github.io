@@ -35,14 +35,14 @@ const data = {
         }
     ],
     news: [
-        {
-            date: "07/2024",
-            content: 'A paper accepted to IEEE VIS 2024.'
-        },
-        {
-            date: "04/2024",
-            content: 'A paper about "sports news generation" accepted to TVCG.'
-        },
+        // {
+        //     date: "07/2024",
+        //     content: 'A paper accepted to IEEE VIS 2024.'
+        // },
+        // {
+        //     date: "04/2024",
+        //     content: 'A paper about "sports news generation" accepted to TVCG.'
+        // },
         {
             date: "01/2024",
             content: 'A paper about "chart generation" accepted to TVCG.'
@@ -172,54 +172,54 @@ const data = {
         }
     ]],
     publications: [
-        {
-            title: 'SNIL: Generating Sports News From Insights With Large Language Models',
-            authors: 'Liqi Cheng, Dazhen Deng, Xiao Xie, Rihong Qiu, Mingliang Xu, Yingcai Wu',
-            corresponding: ['Dazhen Deng'],
-            conference: 'IEEE Transactions on Visualization and Computer Graphics (CCF-A, JCR-Q1)',
-            // bib: ``,
-            paper_url: './publications/snil.pdf',
-            bib: `@ARTICLE{cheng2024snil,
-    author={Cheng, Liqi and Deng, Dazhen and Xie, Xiao and Qiu, Rihong and Xu, Mingliang and Wu, Yingcai},
-    journal={IEEE Transactions on Visualization and Computer Graphics}, 
-    title={SNIL: Generating Sports News From Insights With Large Language Models}, 
-    year={2024},
-    volume={},
-    number={},
-    pages={1-14},
-    keywords={Sports;Data visualization;Journalism;Games;Videos;Task analysis;Interviews;Language-Driven authoring tool;sports visualization;storytelling},
-    doi={10.1109/TVCG.2024.3392683}
-}`,
-            doi: '10.1109/TVCG.2024.3392683',
-            video_url: '',
-            tags: ['ai4vis', 'LLM', 'sports'],
-            src: './imgs/snil.png'
-        },
-        {
-            title: 'ChartGPT: Leveraging LLMs to Generate Charts from Abstract Natural Language',
-            authors: 'Yuan Tian, Weiwei Cui, Dazhen Deng, Xinjing Yi, Yurun Yang, Haidong Zhang, Yingcai Wu',
-            corresponding: ['Dazhen Deng', 'Yingcai Wu'],
-            conference: 'IEEE Transactions on Visualization and Computer Graphics (CCF-A, JCR-Q1)',
-            // bib: ``,
-            paper_url: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10443572',
-            paper_url: './publications/chartgpt.pdf',
-            bib: `@ARTICLE{tian2024chartgpt,
-    author={Tian, Yuan and Cui, Weiwei and Deng, Dazhen and Yi, Xinjing and Yang, Yurun and Zhang, Haidong and Wu, Yingcai},
-    journal={IEEE Transactions on Visualization and Computer Graphics}, 
-    title={{ChartGPT}: Leveraging LLMs to Generate Charts from Abstract Natural Language}, 
-    year={2024},
-    volume={},
-    number={},
-    pages={1--15},
-    keywords={Data visualization;Natural languages;Task analysis;Data models;Visualization;Cognition;Data analysis;Natural language interfaces;large language models;data visualization},
-    doi={10.1109/TVCG.2024.3368621}
-}`,
-            doi: '10.1109/TVCG.2024.3368621',
-            video_url: '',
-            code: 'https://huggingface.co/yuan-tian/chartgpt',
-            tags: ['ai4vis', 'LLM'],
-            src: './imgs/chartgpt.png'
-        },
+//         {
+//             title: 'SNIL: Generating Sports News From Insights With Large Language Models',
+//             authors: 'Liqi Cheng, Dazhen Deng, Xiao Xie, Rihong Qiu, Mingliang Xu, Yingcai Wu',
+//             corresponding: ['Dazhen Deng'],
+//             conference: 'IEEE Transactions on Visualization and Computer Graphics (CCF-A, JCR-Q1)',
+//             // bib: ``,
+//             paper_url: './publications/snil.pdf',
+//             bib: `@ARTICLE{cheng2024snil,
+//     author={Cheng, Liqi and Deng, Dazhen and Xie, Xiao and Qiu, Rihong and Xu, Mingliang and Wu, Yingcai},
+//     journal={IEEE Transactions on Visualization and Computer Graphics}, 
+//     title={SNIL: Generating Sports News From Insights With Large Language Models}, 
+//     year={2024},
+//     volume={},
+//     number={},
+//     pages={1-14},
+//     keywords={Sports;Data visualization;Journalism;Games;Videos;Task analysis;Interviews;Language-Driven authoring tool;sports visualization;storytelling},
+//     doi={10.1109/TVCG.2024.3392683}
+// }`,
+//             doi: '10.1109/TVCG.2024.3392683',
+//             video_url: '',
+//             tags: ['ai4vis', 'LLM', 'sports'],
+//             src: './imgs/snil.png'
+//         },
+//         {
+//             title: 'ChartGPT: Leveraging LLMs to Generate Charts from Abstract Natural Language',
+//             authors: 'Yuan Tian, Weiwei Cui, Dazhen Deng, Xinjing Yi, Yurun Yang, Haidong Zhang, Yingcai Wu',
+//             corresponding: ['Dazhen Deng', 'Yingcai Wu'],
+//             conference: 'IEEE Transactions on Visualization and Computer Graphics (CCF-A, JCR-Q1)',
+//             // bib: ``,
+//             paper_url: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10443572',
+//             paper_url: './publications/chartgpt.pdf',
+//             bib: `@ARTICLE{tian2024chartgpt,
+//     author={Tian, Yuan and Cui, Weiwei and Deng, Dazhen and Yi, Xinjing and Yang, Yurun and Zhang, Haidong and Wu, Yingcai},
+//     journal={IEEE Transactions on Visualization and Computer Graphics}, 
+//     title={{ChartGPT}: Leveraging LLMs to Generate Charts from Abstract Natural Language}, 
+//     year={2024},
+//     volume={},
+//     number={},
+//     pages={1--15},
+//     keywords={Data visualization;Natural languages;Task analysis;Data models;Visualization;Cognition;Data analysis;Natural language interfaces;large language models;data visualization},
+//     doi={10.1109/TVCG.2024.3368621}
+// }`,
+//             doi: '10.1109/TVCG.2024.3368621',
+//             video_url: '',
+//             code: 'https://huggingface.co/yuan-tian/chartgpt',
+//             tags: ['ai4vis', 'LLM'],
+//             src: './imgs/chartgpt.png'
+//         },
         {
             title: 'ViSTec: Video Modeling for Sports Technique Recognition and Tactical Analysis',
             authors: 'Yuchen He, Zeqing Yuan, Yihong Wu, Liqi Cheng, Dazhen Deng, Yingcai Wu',
