@@ -35,10 +35,10 @@ const data = {
         }
     ],
     news: [
-        // {
-        //     date: "07/2024",
-        //     content: 'A paper accepted to IEEE VIS 2024.'
-        // },
+        {
+            date: "07/2024",
+            content: 'A paper accepted to IEEE VIS 2024.'
+        },
         {
             date: "04/2024",
             content: 'A paper about "sports news generation" accepted to TVCG.'
@@ -172,6 +172,29 @@ const data = {
         }
     ]],
     publications: [
+        {
+            title: 'AdversaFlow: Visual Red Teaming for Large Language Models with Multi-Level Adversarial Flow',
+            authors: 'Dazhen Deng, Chuhan Zhang, Huawei Zheng, Yuwen Pu, Shouling Ji, Yingcai Wu',
+            conference: 'IEEE Transactions on Visualization and Computer Graphics (CCF-A, JCR-Q1)',
+            award: 'IEEE VIS 2024 Best Paper Honorable Mention',
+            // bib: ``,
+            paper_url: './publications/adversaflow.pdf',
+            bib: `@ARTICLE{10681029,
+    author={Deng, Dazhen and Zhang, Chuhan and Zheng, Huawei and Pu, Yuwen and Ji, Shouling and Wu, Yingcai},
+    journal={IEEE Transactions on Visualization and Computer Graphics}, 
+    title={AdversaFlow: Visual Red Teaming for Large Language Models with Multi-Level Adversarial Flow}, 
+    year={2024},
+    volume={},
+    number={},
+    pages={1-11},
+    keywords={Security;Analytical models;Training;Visual analytics;Artificial intelligence;Toxicology;Safety;Visual Analytics for Machine Learning;Artificial Intelligence Security;Large Language Models;Text Visualization},
+    doi={10.1109/TVCG.2024.3456150}
+}`,
+            doi: '10.1109/TVCG.2024.3456150',
+            video_url: '',
+            tags: ['vis4ai', 'LLM'],
+            src: './imgs/adversaflow.png'
+        },
         {
             title: 'SNIL: Generating Sports News From Insights With Large Language Models',
             authors: 'Liqi Cheng, Dazhen Deng, Xiao Xie, Rihong Qiu, Mingliang Xu, Yingcai Wu',
@@ -453,6 +476,7 @@ const data = {
             title: 'OBTracker: Visual Analytics of Off-ball Movements in Basketball',
             authors: 'Yihong Wu, Dazhen Deng, Xiao Xie, Moqi He, Jie Xu, Hongzeng Zhang, Hui Zhang, Yingcai Wu',
             conference: 'IEEE VIS 2022 (CCF-A)',
+            award: 'IEEE VIS 2022 Best Paper Honorable Mention',
             doi: '10.1109/TVCG.2022.3209373',
             bib: `@article{wu2023obtracker,
     author       = {Yihong Wu and

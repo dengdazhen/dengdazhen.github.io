@@ -48,7 +48,11 @@ const usePCStyles = makeStyles(theme => ({
     typo3: {
         fontSize: 16,
         fontStyle: 'italic',
-        display: 'block'
+        display: 'inline-flex'
+    },
+    inlineIcon: {
+        width: 24,
+        objectFit: 'scale-down',
     },
     button: {
         marginRight: theme.spacing(1),
@@ -104,7 +108,11 @@ const useMBStyles = makeStyles(theme => ({
     typo3: {
         fontSize: 12,
         fontStyle: 'italic',
-        display: 'block'
+        display: 'inline-flex'
+    },
+    inlineIcon: {
+        width: 18,
+        objectFit: 'scale-down',
     },
     button: {
         marginRight: theme.spacing(1),
@@ -245,7 +253,15 @@ function PublicationElement(props) {
                 <FormattedAuthors props={element} />
                 <Typography className={classes.typo3}>
                     {element.conference}
+                </Typography>                
+                {
+                    !element.hasOwnProperty("award")?
+                            null :
+                <Typography className={classes.typo3}>
+                    <img className={classes.inlineIcon} src={'./award-icon.png'}/>
+                    {element.award}
                 </Typography>
+                }
                 <div>
                     <Button
                         href={element.paper_url}
@@ -341,7 +357,7 @@ function Publications(props) {
                 <Tab label="AI + Vis for Domains" />
             </Tabs>
             <Typography className={classes.typo2}>
-                <b>Note:</b> The label * denotes me as co-first authors and <u>underline</u> denotes me as corresponding authors.
+                <b>Note:</b> The label * denotes me as co-first authors and <u>underline</u> denotes me as co-/corresponding authors.
             </Typography>
             {props.publications.filter((element) => element.tags.includes(tagkey[keyvalue]) || keyvalue == 0).map((value, index) => {
                 return (<PublicationElement
