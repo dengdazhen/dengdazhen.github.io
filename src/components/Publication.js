@@ -135,6 +135,7 @@ const useMBStyles = makeStyles(theme => ({
 const mapkey = {
     'ai4vis': 'AI4VIS',
     'ai+vis': 'AI+VIS',
+    'vis4ai': 'VIS4AI',
     'vis-theory': 'Visualization Theory',
     'vis4ai': 'VIS4AI',
     'LLM': 'LLM',
@@ -143,10 +144,10 @@ const mapkey = {
 }
 const tagkey = [
     'all',
-    'vis-theory',
     'ai4vis',
-    // 'vis4ai',
+    'vis4ai',
     'ai+vis',
+    'vis-theory',
 ]
 
 function FormattedAuthors(element) {
@@ -351,10 +352,10 @@ function Publications(props) {
             </Typography>
             <Tabs value={keyvalue} onChange={handleChange} indicatorColor="primary" aria-label="basic tabs example">
                 <Tab label="All" />
-                <Tab label="Vis Fundamental Research" />
                 <Tab label="AI for Vis" />
-                {/* <Tab label="Vis for AI"/> */}
+                <Tab label="Vis for AI"/>
                 <Tab label="AI + Vis for Domains" />
+                <Tab label="Vis Theory" />
             </Tabs>
             <Typography className={classes.typo2}>
                 <b>Note:</b> The label * denotes me as co-first authors and <u>underline</u> denotes me as co-/corresponding authors.

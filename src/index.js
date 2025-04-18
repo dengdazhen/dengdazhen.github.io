@@ -163,6 +163,9 @@ function App(props) {
             </AppBar>
             <div className={classes.mainBody}>
                 <PersonalIntro content={data.intro[langOpt]} contact={data.contact} lang={langOpt}/>
+                <Typography style={{ textAlign: 'justify'}}>
+                Our research group is actively seeking exceptionally self-motivated undergraduate students, master students, Ph.D. students, and research interns. We welcome individuals with a deep interest in visualization, large models, and data mining, who are <span style={{ fontWeight: 'bold', color: '#FF5733' }}>passionate about academic research and committed to excellence</span>. If you meet these standards, feel free to reach out via email with your CV attached.
+                                </Typography>
                 {/* <Timeline experience={data.experience[langOpt]} lang={langOpt}/> */}
                 <News news={data.news} lang={langOpt}/>
                 <Publications publications={data.publications} lang={langOpt}/>

@@ -1,6 +1,6 @@
 const data = {
-    date: "2025.02",
-    intro: ["邓达臻博士是浙江大学软件学院平台“百人计划”研究员，2018年于浙江大学获得数学与应用数学学士学位；2023年于浙江大学获得计算机科学与技术博士学位，师从巫英才教授。博士期间获国家奖学金和浙江省优秀毕业研究生等奖项。主要从事大数据可视分析、AI驱动的可视化生成和大模型安全可视分析的相关研究。在IEEE VIS、IEEE TVCG、ACM KDD、ACM CHI、ACM UIST等CCF-A类可视化、人工智能和人机交互会议/期刊上发表相关论文10余篇，曾获IEEE VIS 2022最佳论文提名奖；相关成果落地应用至中国乒乓球队智能大数据平台中，助力国家队备战国际重要赛事。", "I am a tenure-track assistant professor (ZJU 100-Young professor) in the School of Software and Technology at Zhejiang University (<a href='https://person.zju.edu.cn/dengdazhen'>official homepage</a>). I received my Ph.D. at the State Key Lab of CAD&CG, Zhejiang University, under the supervision of <a href='https://person.zju.edu.cn/ycwu'>Prof. Yingcai Wu</a>. My research interests lie in visual storytelling, visual analytics, and sports analysis. I have been honored with IEEE VIS 2022 and 2024 Best Paper Honorable Mention Award and First Prize of Science and Technology of Zhejiang Province. The relevant achievements have been applied to the Intelligent Big Data Platform of the Chinese Table Tennis Team, aiding the national team in preparing for major international competitions, such as Olympic Games and World Table Tennis Championships (<a href='https://news.cctv.com/2021/08/11/ARTIu1LcWheEFyyQtark9H51210811.shtml'>CCTV News</a>, <a href='https://jyt.zj.gov.cn/art/2021/8/13/art_1532836_58917877.html'>Zhejiang Daily</a>)."],
+    date: "2025.04",
+    intro: ["邓达臻博士是浙江大学软件学院平台“百人计划”研究员，2018年于浙江大学获得数学与应用数学学士学位；2023年于浙江大学获得计算机科学与技术博士学位，师从巫英才教授。博士期间获国家奖学金和浙江省优秀毕业研究生等奖项。主要从事大数据可视分析、AI驱动的可视化生成和大模型安全可视分析的相关研究。在IEEE VIS、IEEE TVCG、ACM KDD、ACM CHI、ACM UIST等CCF-A类可视化、人工智能和人机交互会议/期刊上发表相关论文10余篇，曾获IEEE VIS 2022最佳论文提名奖；相关成果落地应用至中国乒乓球队智能大数据平台中，助力国家队备战国际重要赛事。", "I am a Tenure-Track Assistant Professor (ZJU 100-Young professor) in the School of Software and Technology at Zhejiang University (<a href='https://person.zju.edu.cn/dengdazhen'>official homepage</a>). I received my Ph.D. at the State Key Lab of CAD&CG, Zhejiang University, under the supervision of <a href='https://person.zju.edu.cn/ycwu'>Prof. Yingcai Wu</a>. My research interests lie in visual analytics, artificial intelligence, and their applications in specific domains. I have been honored with IEEE VIS 2022 and 2024 Best Paper Honorable Mention Award and First Prize of Science and Technology of Zhejiang Province. The relevant achievements have been applied to the Intelligent Big Data Platform of the Chinese Table Tennis Team, aiding the national team in preparing for major international competitions, such as Olympic Games and World Table Tennis Championships (<a href='https://news.cctv.com/2021/08/11/ARTIu1LcWheEFyyQtark9H51210811.shtml'>CCTV News</a>, <a href='https://jyt.zj.gov.cn/art/2021/8/13/art_1532836_58917877.html'>Zhejiang Daily</a>)."],
 
     contact: [
         {
@@ -185,27 +185,32 @@ const data = {
     ]],
     publications: [
         {
-            title: 'VisCourt: In-Situ Guidance for Interactive Tactic Training in Mixed Reality',
-            authors: 'Liqi Cheng, Hanze Jia, Lingyun Yu, Yihong Wu, Shuainan Ye, Dazhen Deng, Hui Zhang, Xiao Xie, Yingcai Wu',
-            conference: 'ACM Symposium on User Interface Software and Technology (CCF-A)',
-            paper_url: './publications/viscourt.pdf',
-            bib: `@inproceedings{10.1145/3654777.3676466,
-    author = {Cheng, Liqi and Jia, Hanze and Yu, Lingyun and Wu, Yihong and Ye, Shuainan and Deng, Dazhen and Zhang, Hui and Xie, Xiao and Wu, Yingcai},
-    title = {VisCourt: In-Situ Guidance for Interactive Tactic Training in Mixed Reality},
-    year = {2024},
-    doi = {10.1145/3654777.3676466},
-    booktitle = {Proceedings of the 37th Annual ACM Symposium on User Interface Software and Technology},
-    articleno = {32},
-    numpages = {14}
-}`,
-            doi: '10.1145/3654777.3676466',
+            title: 'ProTAL: A Drag-and-Link Video Programming Framework for Temporal Action Localization',
+            authors: 'Yuchen He, Jianbing Lv, Liqi Cheng, Lingyu Meng, Dazhen Deng, Yingcai Wu',
+            corresponding: ['Dazhen Deng'],
+            conference: 'CHI Conference on Human Factors in Computing Systems (ACM SIGCHI 2025, CCF-A)',
+            paper_url: './publications/protal.pdf',
+            bib: ``,
+            doi: '10.1145/3706598.3713741',
             video_url: '',
-            tags: ['ai+vis', 'sports'],
-            src: './imgs/viscourt.png'
+            tags: ['vis4ai', 'sports'],
+            src: './imgs/protal.png'
+        },
+        {
+            title: 'TableNarrator: Making Image Tables Accessible to Blind and Low Vision People',
+            authors: 'Ye Mo, Gang Huang, Liangcheng Li, Dazhen Deng, Zhi Yu, Yilun Xu, Kai Ye, Sheng Zhou, Jiajun Bu',
+            conference: 'CHI Conference on Human Factors in Computing Systems (ACM SIGCHI 2025, CCF-A)',
+            paper_url: './publications/tablenarrator.pdf',
+            bib: ``,
+            doi: '10.1145/3706598.3714329',
+            video_url: '',
+            tags: ['ai4vis'],
+            src: './imgs/tablenarrator.png'
         },
         {
             title: 'AdversaFlow: Visual Red Teaming for Large Language Models with Multi-Level Adversarial Flow',
             authors: 'Dazhen Deng, Chuhan Zhang, Huawei Zheng, Yuwen Pu, Shouling Ji, Yingcai Wu',
+            corresponding: ['Yingcai Wu'],
             conference: 'IEEE Transactions on Visualization and Computer Graphics (CCF-A, JCR-Q1)',
             award: 'IEEE VIS 2024 Best Paper Honorable Mention',
             // bib: ``,
@@ -255,7 +260,7 @@ const data = {
             corresponding: ['Dazhen Deng', 'Yingcai Wu'],
             conference: 'IEEE Transactions on Visualization and Computer Graphics (CCF-A, JCR-Q1)',
             // bib: ``,
-            paper_url: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10443572',
+            doi: '10.1109/TVCG.2024.3368621',
             paper_url: './publications/chartgpt.pdf',
             bib: `@ARTICLE{tian2024chartgpt,
     author={Tian, Yuan and Cui, Weiwei and Deng, Dazhen and Yi, Xinjing and Yang, Yurun and Zhang, Haidong and Wu, Yingcai},
@@ -733,6 +738,14 @@ const data = {
     ],
     honors: [
         {
+            date: "2024",
+            content: "First Prize of Science and Technology of Zhejiang Province"
+        },
+        {
+            date: "2024",
+            content: "IEEE VIS Best Paper Honorable Mention Award"
+        },
+        {
             date: "2023",
             content: "Ningbo Yongjiang Innovative Youth Talents"
         },
@@ -755,7 +768,10 @@ const data = {
     ],
     services: [
         {
-            content: "Academic Committee: Committee Member of CSIG Committee of Visualization and Visual Analytics"
+            content: "Academic Committee: Committee Member of CSIG Committee of Visualization and Visual Analytics Committee, Committee Member of CCF Computer Aided Design and Computer Graphics Committee"
+        },
+        {
+            content: "Program Commitee: PacificVis TVCG Journal Track, IEEE VIS Short Paper Track"
         },
         {
             content: "Conference Reviewer: ACM CHI, IEEE VIS, CSCW, ACM MM, PacificVis, ChinaVis"
