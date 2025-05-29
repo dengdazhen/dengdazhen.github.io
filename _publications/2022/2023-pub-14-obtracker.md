@@ -1,9 +1,9 @@
 ---
 title: "OBTracker: Visual Analytics of Off-ball Movements in Basketball"
-selected: false
+selected: true
 date: 2022-10-23 00:01:00 UTC-8
 pub: "IEEE Transactions on Visualization and Computer Graphics (IEEE VIS 2022), vol. 29, no. 1, pp. 929-939, Jan. 2023 (CCF-A, JCR-Q1)"
-pub_last: ' <span class="badge badge-pill badge-publication badge-success">Best Paper Honorable Mention</span>'
+award: Best Paper Honorable Mention
 pub_date: "2023"
 doi: "10.1109/TVCG.2022.3209373"
 cover: "/assets/images/covers/obtracker.png"

@@ -4,7 +4,7 @@ selected: true
 date: 2024-10-23 00:01:00 UTC-8
 pub: "IEEE Transactions on Visualization and Computer Graphics (IEEE VIS 2024), vol. 31, no. 1, pp. 492-502, Jan. 2025 (CCF-A, JCR-Q1)"
 pub_date: "2024"
-pub_last: ' <span class="badge badge-pill badge-publication badge-success">Best Paper Honorable Mention</span>'
+award: Best Paper Honorable Mention
 doi: "10.1109/TVCG.2024.3456150"
 cover: "/assets/images/covers/adversaflow.png"
 authors:
