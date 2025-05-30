@@ -1,43 +1,99 @@
 ---
 layout: default
-title : Join Us
+title: Join Us
 navbar_title: Join Us
 container_class: container-xl
 ---
 
-{% assign people = site.group | where: "title", "People" | first %}
+<div class="container mt-5">
+  <h1 class="mb-3">Join Us!</h1>
+  <p class="text-muted fst-italic">*Students co-supervised with Prof. Yingcai Wu*</p>
 
-<h1 class="mt-4">Group</h1>
-<p class="text-muted fst-italic mb-4" style="margin-bottom: -0.5rem;">
-  * Students co-supervised with Prof. Yingcai Wu
+  <hr>
+
+  <h2>Who are we?</h2>
+  <p>
+    We are the <a href="https://zjuidg.org/" target="_blank"><strong>Interactive Data Group at Zhejiang University (ZJUIDG)</strong></a>, one of the leading research groups
+    in data visualization globally. Under the supervision of <strong>Prof. Yingcai Wu</strong>, and co-supervised by myself. Specifically, I conduct cutting-edge research at the intersection of <strong>large language models (LLMs)</strong> and
+    <strong>visual analytics</strong>, through a dedicated division: <strong>ZJUIDG-AIVA (AI with Visual Analytics)</strong>.
+  </p>
+  <p>
+    Our team has consistently ranked among the top worldwide on
+    <a href="https://csrankings.org/#/fromyear/2021/toyear/2025/index?visualization&world" target="_blank">CSRankings.org</a>
+    in the visualization field.
+  </p>
+
+  <hr>
+
+  <h2>Who are we looking for?</h2>
+  <p>
+    Each year, I recruit <strong>1-2 PhD students</strong> and <strong>3-4 Master's students</strong>, jointly with Prof. Wu.
+    We welcome those who are passionate about:
+  </p>
+  <ul>
+    <li>Trustworthy LLMs</li>
+    <li>Visual analytics</li>
+    <li>Data mining</li>
+  </ul>
+  <p>Ideal candidates possess one or more of the following skills:</p>
+  <ul>
+    <li>Experience in large model pretraining, fine-tuning, and deployment</li>
+    <li>Strong algorithm development capabilities</li>
+    <li>Proficient frontend/backend engineering skills</li>
+  </ul>
+  <p>
+    English proficiency and a solid mathematical foundation are essential. The ability to understand and reproduce top conference papers is a basic requirement for graduate study.
+  </p>
+  <p>
+    <mark>We especially welcome students with long-term PhD goals, or those considering <strong>Master-to-PhD transitions</strong> or <strong>overseas doctoral study</strong>. </mark>
+
+  <hr>
+
+  <h2>What do we offer?</h2>
+  <ul>
+    <li>Top-tier research environment, computing resources, and hands-on mentorship</li>
+    <li>6-12 month academic exchange opportunities with top research institutions (e.g., MSRA, CMU, UCSD, and ETH)</li>
+    <li>Guaranteed support for attending at least one international conference; full support for all first-author papers</li>
+    <li>Generous daily stipends, with additional financial support for those involved in engineering projects</li>
+    <li>Access to top-tier industry opportunities — e.g., Huawei top offers</li>
+  </ul>
+
+  <p class="mt-4">
+    If you're passionate, curious, and ready to explore the future of intelligent visual analytics,
+    <strong>we look forward to hearing from you!</strong>
+  </p>
+  <hr>
+
+  <h2>How to Apply</h2>
+  <p>
+    We welcome applications from highly motivated students throughout the year. If you're interested in joining our group, there are multiple paths available:
+    </p>
+    <ul>
+      <li>
+        For <strong>PhD applicants</strong>: We encourage you to apply through the
+        <a href="http://www.cs.zju.edu.cn/csen/2025/0528/c27011a3056015/page.htm" target="_blank">
+          ZJU School of Computer Science Summer Camp (计算机学院暑期夏令营)
+        </a>, typically held in early summer. During the camp, you will interact with members of ZJUIDG and have the opportunity to showcase your skills and potential. If you perform well but are not admitted due to the limited number of PhD openings, you are encouraged to consider the Master's path described below.
+      </li>
+      <li>
+        For <strong>Master’s applicants</strong>: You may apply through the
+        <strong>School of Software Technology’s recommendation round in September (软件学院9月推免)</strong>.
+        Outstanding Master's students will have the opportunity to transfer to the PhD track later on.
+        Please note that <strong>I am not an industry-focused advisor</strong> (often referred to as “羊导” in Chinese Social Media).
+        Master's students typically receive a short internship opportunity only in their second year, usually no longer than three months.
+        If you are looking for extensive industry internships starting immediately after enrollment, our team may not be the most suitable fit.
+        </span>
+      </li>
+      <li>
+        If you're unsure which path is most suitable for you, feel free to <strong>email us with your CV and research interests</strong> to start a conversation.
+      </li>
+    </ul>
+    <p>
+    Please prepare your CV, academic transcript, and a brief statement of interest outlining your background, goals, and motivation for applying.
+    </p>
+    
+<p>
+You may contact us via email:  
+<a href="dengdazhen@zju.edu.cn">your-email@zju.edu.cn</a>
 </p>
-
-<div class="row grid mb-4">
-  <div class="grid-sizer col-1"></div>
-
-  {% for group_name in people.groups %}
-    {% assign members = group_name[1] %}
-    <div class="p-2 grid-item col-md-12">
-      <div class="card border-0 shadow-sm bg-white p-4">
-        <h2 class="mb-3">{{ group_name[0] }}</h2>
-        <ul class="mb-0">
-          {% for person in members %}
-            <li class="mb-2">
-              <strong>
-                {% if person.url %}
-                  <a href="{{ person.url }}" target="_blank">{{ person.name }}</a>
-                {% else %}
-                  {{ person.name }}
-                {% endif %}
-              </strong>
-              ({{ person.year }})
-              {% if person.direction %}
-                - {{ person.direction }}
-              {% endif %}
-            </li>
-          {% endfor %}
-        </ul>
-      </div>
-    </div>
-  {% endfor %}
 </div>
