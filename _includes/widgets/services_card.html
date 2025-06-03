@@ -1,0 +1,77 @@
+{% assign services = site.data.services %}
+
+<div class="row mt-3">
+  <div class="col">
+    <div class="card border-0 shadow-sm bg-white">
+      <div class="card-body p-4">
+        <div class="row" data-masonry='{"percentPosition": true }'>
+
+          <!-- Left Column -->
+          <div class="col-md-6">
+
+            {% if services.public_talks %}
+            <div class="mx-2 my-1">
+              <h6>Selected Public Talks</h6>
+              <ul class="list small pl-3 mb-1">
+                {% for item in services.public_talks %}
+                <li>
+                  <div class="d-flex">
+                    <div><em>{{ item.title }}</em>, {{ item.venue }}</div>
+                    <div class="ml-auto mt-auto no-break"><em>{{ item.date }}</em></div>
+                  </div>
+                </li>
+                {% endfor %}
+              </ul>
+            </div>
+            {% endif %}
+
+            {% if services.program_committees %}
+            <div class="mx-2 my-1">
+              <h6>Program Committees</h6>
+              <ul class="list small pl-3 mb-1">
+                {% for item in services.program_committees %}
+                <li>
+                  <div class="d-flex">
+                    <div>{{ item.event }}</div>
+                    <div class="ml-auto mt-auto no-break"><em>{{ item.year }}</em></div>
+                  </div>
+                </li>
+                {% endfor %}
+              </ul>
+            </div>
+            {% endif %}
+
+          </div>
+
+          <!-- Right Column -->
+          <div class="col-md-6">
+
+            {% if services.invited_conference_reviewers %}
+            <div class="mx-2 my-1">
+              <h6>Invited Conference Reviewers</h6>
+              <ul class="list small pl-3 mb-1">
+                {% for name in services.invited_conference_reviewers %}
+                <li>{{ name }}</li>
+                {% endfor %}
+              </ul>
+            </div>
+            {% endif %}
+
+            {% if services.invited_journal_reviewers %}
+            <div class="mx-2 my-1">
+              <h6>Invited Journal Reviewers</h6>
+              <ul class="list small pl-3 mb-1">
+                {% for name in services.invited_journal_reviewers %}
+                <li>{{ name }}</li>
+                {% endfor %}
+              </ul>
+            </div>
+            {% endif %}
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

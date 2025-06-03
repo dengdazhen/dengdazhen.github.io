@@ -1,0 +1,79 @@
+# organizing_committees:
+#   - role: "Alt.CHI Paper Co-Chair"
+#     event: "ACM CHI"
+#     year: 2025
+#   - role: "Organizer"
+#     event: "ACM CHI Human-Notebook Interaction Workshop"
+#     year: 2024
+#   - role: "Paper Co-Chair"
+#     event: "IEEE PacificVis"
+#     year: 2022
+#   - role: "Paper Co-Chair"
+#     event: "ChineseCHI"
+#     year: "2021, 2022"
+#   - role: "Paper Co-Chair"
+#     event: "ChinaVis"
+#     year: 2021
+#   - role: "Publication Co-Chair"
+#     event: "IEEE VIS"
+#     year: "2021–2022"
+#   - role: "Visualization Area Co-Chair"
+#     event: "ISVC"
+#     year: 2020
+#   - role: "Fast Forward and Video Co-Chair"
+#     event: "IEEE VIS"
+#     year: "2019–2020"
+#   - role: "Visual Data Storytelling Contest Co-Chair"
+#     event: "IEEE PacificVis"
+#     year: 2019
+#   - role: "Poster Co-Chair"
+#     event: "ChinaVis"
+#     year: "2019, 2020"
+
+# editorial_positions:
+#   - role: "Associate Editor"
+#     journal: "IEEE Transactions on Visualization and Computer Graphics (TVCG)"
+#     year: "2024–"
+#   - role: "Guest Editor"
+#     journal: "IEEE TCSS Special Issue on Social Studies, Human Factors and Applications in Metaverse"
+#     year: 2022
+#   - role: "Guest Editor"
+#     journal: "IEEE CG&A Special Issue on Powering Visualization with Deep Learning"
+#     year: 2020
+
+
+
+public_talks:
+  - title: "Visual Analytics for Trustworthy Large Language Models"
+    venue: "ShanghaiTech University, Shanghai, China"
+    date: "2025.5"
+  - title: "Artificial Intelligence for Visualization Generation"
+    venue: "ChinaVis 2024 Panel: LLM and Knowledge-based Data Storytelling, Hongkong, China"
+    date: "2024.7"
+  - title: "Artificial Intelligence for Visualization Generation"
+    venue: "Huawei Cloud Data Intelligence Workshop, Hangzhou, China"
+    date: "2024.5"
+
+
+program_committees:
+  - event: "IEEE VIS Short Papers"
+    year: 2025
+  - event: "CAD/CG"
+    year: 2025
+  - event: "ChinaVis"
+    year: 2025
+  - event: "PacificVis (TVCG-Journal Track)"
+    year: 2024
+
+invited_conference_reviewers:
+  - "IEEE VIS"
+  - "ACM CHI"
+  - "UIST"
+  - "ACM MM"
+  - "PacificVis (Regular and TVCG-Journal Track)"
+  - "ChinaVis"
+
+invited_journal_reviewers:
+  - "IEEE TVCG"
+  - "IEEE TOMM"
+  - "Visual Informatics"

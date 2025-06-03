@@ -29,8 +29,10 @@ short_bio: >-
     I am a Tenure-Track Assistant Professor (ZJU 100-Young Professor) in the School of Software and Technology at Zhejiang University (<a href='https://person.zju.edu.cn/dengdazhen'>中文主页</a>). I received my Ph.D. at the State Key Lab of CAD&CG, Zhejiang University, under the supervision of <a href='https://person.zju.edu.cn/ycwu'>Prof. Yingcai Wu (巫英才)</a>. My research interests lie in visual analytics, artificial intelligence, and their applications in specific domains. I have been honored with IEEE VIS 2022 and 2024 Best Paper Honorable Mention Award and First Prize of Science and Technology of Zhejiang Province. The relevant achievements have been applied to the Intelligent Big Data Platform of the Chinese Table Tennis Team, aiding the national team in preparing for major international competitions, such as Olympic Games and World Table Tennis Championships (<a href='https://news.cctv.com/2021/08/11/ARTIu1LcWheEFyyQtark9H51210811.shtml'>CCTV News</a>, <a href='https://jyt.zj.gov.cn/art/2021/8/13/art_1532836_58917877.html'>Zhejiang Daily</a>)
   </p>
   <p>
-    My research group is actively seeking exceptionally self-motivated undergraduate students, master students, Ph.D. students, and research interns. We welcome individuals with a deep interest in <mark>large models, visual analytics, and data mining</mark>, who are <mark>passionate about academic research and committed to excellence</mark>. If you meet these standards, feel free to reach out via email with your CV attached.
-  <p>
+  My research group is actively seeking exceptionally self-motivated undergraduate students, master students, Ph.D. students, and research interns. We welcome individuals with a deep interest in <mark>Trustworthy LLMs, LLM driven visual analytics, data mining and artificial intelligence</mark>. For more details, please refer to the <a href="/join-us/">Join Us</a> page.
+  </p>
+
+
 
 portrait_url: /assets/images/photos/portrait.jpg
 portrait_caption: >-
@@ -46,11 +48,8 @@ education:
   position: B.S. in Applied Mathematics
   date: Sep. 2014 - Jul. 2018
 
-# experience:
-# - name: Peking University
-#   logo: /assets/images/badges/PKU_red.png
-#   position: Research Intern
-#   date: Sep. 2019 - Jul. 2021
+
+
 
 awards:
 - name: First Prize of Science and Technology of Zhejiang Province
