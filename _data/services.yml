@@ -56,10 +56,14 @@ public_talks:
 
 
 program_committees:
+  - event: "ICLR (Senior Program Committee)"
+    year: 2026
+  - event: "IEEE VIS"
+    year: 2026
   - event: "IEEE VIS Short Papers"
     year: 2025
   - event: "CAD/CG"
-    year: 2025
+    year: 2025, 2026
   - event: "ChinaVis"
     year: 2025
   - event: "PacificVis (TVCG-Journal Track)"
@@ -68,7 +72,10 @@ program_committees:
 invited_conference_reviewers:
   - "IEEE VIS"
   - "ACM CHI"
+  - "CVPR"
+  - "ACL"
   - "UIST"
+  - "CSCW"
   - "ACM MM"
   - "PacificVis (Regular and TVCG-Journal Track)"
   - "ChinaVis"
