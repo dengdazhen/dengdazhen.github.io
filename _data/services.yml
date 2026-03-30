@@ -67,7 +67,7 @@ program_committees:
   - event: "ChinaVis"
     year: 2025
   - event: "PacificVis (TVCG-Journal Track)"
-    year: 2024
+    year: 2024, 2025
 
 invited_conference_reviewers:
   - "IEEE VIS"
