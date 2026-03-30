@@ -12,7 +12,7 @@ authors:
 - Liqi Cheng
 - Kuilin Peng
 - Yuan Tian
-- Dazhen Deng
+- Dazhen Deng#
 - Yingcai Wu
 bib: |-
   @inproceedings{10.1145/3772318.3790721,
