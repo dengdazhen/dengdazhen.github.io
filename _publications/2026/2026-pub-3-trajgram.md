@@ -1,8 +1,9 @@
 ---
 title: "A Declarative Grammar for Interactive Trajectory Visualization: Interaction as First-Class Component"
 date: 2026-03-20 00:03:00 UTC-8
-selected: false
+selected: true
 pub: "IEEE Pacific Visualization Symposium (PVIS 2026)"
+award: Best Paper Honorable Mention Award
 pub_date: "2026"
 cover: "/assets/images/covers/TrajGram.png"
 authors:
