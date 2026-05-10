@@ -1,6 +1,6 @@
 ---
 title: "ReSpark: Leveraging Previous Data Reports as References to Generate New Reports with LLMs"
-selected: true
+selected: false
 date: 2025-10-01 00:01:00 UTC-8
 pub: "Proceedings of the Annual ACM Symposium on User Interface Software and Technology (UIST 2025) (CCF-A)"
 pub_date: "2025"

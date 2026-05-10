@@ -1,6 +1,6 @@
 ---
 title: "DashBot: Insight-Driven Dashboard Generation Based on Deep Reinforcement Learning"
-selected: true
+selected: false
 date: 2022-10-23 00:01:00 UTC-8
 pub: "IEEE Transactions on Visualization and Computer Graphics (IEEE VIS 2022), vol. 29, no. 1, pp. 690-700, Jan. 2023 (CCF-A, JCR-Q1)"
 pub_date: "2023"

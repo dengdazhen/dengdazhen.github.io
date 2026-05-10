@@ -1,7 +1,7 @@
 ---
 title: "NoteFlow: Leveraging Charts as Sight Glasses for Consistent and Continuous Data Flow Tracing"
 date: 2026-04-26 00:01:00 UTC-8
-selected: true
+selected: false
 pub: "CHI 2026 (CCF-A)"
 pub_date: "2026"
 doi: "10.1145/3772318.3790356"

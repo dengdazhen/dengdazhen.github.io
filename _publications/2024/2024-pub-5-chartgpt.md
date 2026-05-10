@@ -3,6 +3,7 @@ title: "ChartGPT: Leveraging LLMs to Generate Charts from Abstract Natural Langu
 selected: true
 date: 2024-02-23 00:01:00 UTC-8
 pub: "IEEE Transactions on Visualization and Computer Graphics, vol. 31, no. 3, pp. 1731-1745, March 2025 (CCF-A, JCR-Q1)"
+highly_cited: "Web of Science Highly Cited Paper"
 pub_date: "2024"
 doi: "10.1109/TVCG.2024.3368621"
 cover: "/assets/images/covers/chartgpt.png"
