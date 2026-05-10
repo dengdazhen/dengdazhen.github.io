@@ -3,12 +3,12 @@
     <div class="row no-gutters {% unless include.hide_bottom_border %}border-bottom{% endunless %} border-gray">
         <div class="col-md-3 col-xl-2 mb-md-0 p-md-3">
             {%- if item.cover -%}
-            <div class="publication-cover rounded-sm">
-                <img data-src="{{ item.cover | relative_url }}" alt="{{ item.title }}" class="lazy publication-cover-img" src="{{ '/assets/images/empty_300x200.png' | relative_url }}">
+            <div class="publication-cover rounded-sm" style="width: 100%; height: 120px; overflow: hidden;">
+                <img data-src="{{ item.cover | relative_url }}" alt="{{ item.title }}" class="lazy publication-cover-img" src="{{ '/assets/images/empty_300x200.png' | relative_url }}" style="display: block; width: 100%; height: 100%; object-fit: cover; object-position: center;">
             </div>
             {%- else -%}
-            <div class="publication-cover rounded-sm">
-                <svg class="bubble-visual-hash lazy publication-cover-img" data-bubble-visual-hash="{{ item.id }}" viewBox="0 0 300 200"></svg>
+            <div class="publication-cover rounded-sm" style="width: 100%; height: 120px; overflow: hidden;">
+                <svg class="bubble-visual-hash lazy publication-cover-img" data-bubble-visual-hash="{{ item.id }}" viewBox="0 0 300 200" style="display: block; width: 100%; height: 100%; object-fit: cover; object-position: center;"></svg>
             </div>
             {%- endif -%}
         </div>
@@ -56,11 +56,11 @@
 <div class="row no-gutters d-md-none {% unless include.hide_bottom_border %}border-bottom{% endunless %} border-gray {% if include.first %}rounded-top{% endif %} {% if include.last %}rounded-bottom{% endif %}">
     <div class="w-100" style="background-color: rgba(255,255,255,0.9);">
         <div class="d-flex align-items-start flex-column py-3 px-4">
-            <div class="publication-cover publication-cover-mobile rounded-sm mb-3">
+            <div class="publication-cover publication-cover-mobile rounded-sm mb-3" style="width: 100%; max-width: 220px; height: 140px; overflow: hidden;">
                 {%- if item.cover -%}
-                <img data-src="{{ item.cover | relative_url }}" alt="{{ item.title }}" class="lazy publication-cover-img" src="{{ '/assets/images/empty_300x200.png' | relative_url }}">
+                <img data-src="{{ item.cover | relative_url }}" alt="{{ item.title }}" class="lazy publication-cover-img" src="{{ '/assets/images/empty_300x200.png' | relative_url }}" style="display: block; width: 100%; height: 100%; object-fit: cover; object-position: center;">
                 {%- else -%}
-                <svg class="bubble-visual-hash lazy publication-cover-img" data-bubble-visual-hash="{{ item.id }}" viewBox="0 0 300 200"></svg>
+                <svg class="bubble-visual-hash lazy publication-cover-img" data-bubble-visual-hash="{{ item.id }}" viewBox="0 0 300 200" style="display: block; width: 100%; height: 100%; object-fit: cover; object-position: center;"></svg>
                 {%- endif -%}
             </div>
             <div class="mb-auto"></div>
