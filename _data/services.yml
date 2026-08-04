@@ -44,6 +44,9 @@
 
 
 public_talks:
+  - title: "Large Language Model Agents for Visual Analytics"
+    venue: "ChinaVis 2026 (Invited Talk)"
+    date: "2026"
   - title: "Visual Analytics for Trustworthy Large Language Models"
     venue: "ShanghaiTech University, Shanghai, China"
     date: "2025.5"
