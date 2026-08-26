@@ -13,7 +13,7 @@ authors:
 - Yuyou Gan
 - Tianyu Du
 - Shouling Ji
-- Dazhen Deng
+- Dazhen Deng#
 - Yingcai Wu
 bib: |-
   @article{zhang2026neurobreak,
