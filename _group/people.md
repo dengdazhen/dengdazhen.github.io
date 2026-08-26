@@ -3,7 +3,7 @@ title: People
 layout: null
 groups:
   PhD Students:
-    - name: Zhaoping He
+    - name: Zhaoping He*
       year: "2026-now"
       direction: "Data Agent"
     - name: Peizhi Ying
@@ -15,7 +15,7 @@ groups:
     - name: Bowen Shi*
       year: "2025-now"
       direction: "LLM Quantization, Data Agent"
-    - name: Zhonghua Jiang
+    - name: Zhonghua Jiang*
       year: "2025-now"
       direction: "Soccer Video Understanding, Multimodal Large Language Models"
     - name: Yuchen He*
