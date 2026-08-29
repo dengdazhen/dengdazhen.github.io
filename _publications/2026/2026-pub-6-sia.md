@@ -5,6 +5,7 @@ date: 2026-07-15 00:02:00 UTC-8
 pub: "IEEE Transactions on Visualization and Computer Graphics (IEEE VIS 2026) (CCF-A, JCR-Q1)"
 pub_date: "2026"
 doi: "10.48550/arXiv.2510.26172"
+cover: "/assets/images/covers/sia.png"
 authors:
 - Shifu Chen
 - Dazhen Deng#
