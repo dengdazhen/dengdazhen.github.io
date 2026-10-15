@@ -5,7 +5,7 @@ date: 2026-10-13 00:01:00 UTC-8
 pub: "IEEE Transactions on Visualization and Computer Graphics (IEEE VIS 2026) (CCF-A, JCR-Q1)"
 pub_date: "2026"
 doi: ""
-cover: "/assets/images/covers/backdoorscope.svg"
+cover: "/assets/images/covers/backdoorscope.png"
 authors:
 - Hanze Jia
 - Tan Tang
